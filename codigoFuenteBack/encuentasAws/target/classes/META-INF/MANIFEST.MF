@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: encuentasAws
+Implementation-Version: 1.0
+Built-By: root
+Implementation-Vendor-Id: co.com.aws
+Build-Jdk: 1.8.0
+Implementation-URL: http://maven.apache.org
+Created-By: Maven Integration for Eclipse
+Main-Class: co.com.aws.encuentasAws.App
+
