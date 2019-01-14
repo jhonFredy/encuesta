@@ -1,0 +1,19 @@
+.example-container {
+    
+    flex-direction: column;
+    display: inline-block;
+    margin-top: 5%;
+  }
+  
+  .example-container > * {
+    width: 100%;
+    
+  }
+
+  .example-container form > * {
+    margin: 5px 0;
+  }
+  
+  .example-container .mat-radio-button {
+    margin: 0 5px;
+  }

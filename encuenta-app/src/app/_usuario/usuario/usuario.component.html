@@ -1,0 +1,27 @@
+<h1>
+  Bienvenido a la encuestas sobre lenguajes de programaciòn
+</h1>
+<div class="example-container">
+  <mat-form-field>
+    <input matInput placeholder="Nombres" [(ngModel)]="usuario.nombres" />
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Apellidos" [(ngModel)]="usuario.apellidos" />
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Edad" [(ngModel)]="usuario.edad" />
+  </mat-form-field>
+
+  <form class="example-container" [formGroup]="options">
+    <div>
+      <label>Lenguaje Programaciòn Preferido: </label>
+      <mat-radio-group formControlName="floatLabel" [(ngModel)]="usuario.lenguaje" >
+        <mat-radio-button value="Java" >Java</mat-radio-button>
+        <mat-radio-button value="C#">C#</mat-radio-button>
+      </mat-radio-group>
+    </div>
+    <button mat-button (click)=enviarEncuesta()>Enviar</button>
+  </form>
+</div>
